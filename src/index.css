@@ -5,4 +5,20 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+}
+
+body, html{
+  scroll-behavior: smooth;
+  user-select: none;
+}
+
+:root{
+  --main-color: #57b279;
+  --text-color: #ffffff;
+  --next-color: #000066;
+  --body-text: #000000;
+  --container-lg: 95%;
+  --container-md: 92%;
+  --container-sm: 98%;
 }

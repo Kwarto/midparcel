@@ -9,9 +9,6 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/*" element={<Home />} />
-        #57b279
-        #000066
-        #ffffff
       </Routes> 
       <Footer />
     </>
