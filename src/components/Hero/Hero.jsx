@@ -10,7 +10,7 @@ const Hero = () => {
           <HeroWrapper>
               <HeroContainer>
                   <TextWrapper>
-                      <h1>Mid Parcel, <br /> feel the speed</h1>  
+                      <h1>Mid Parcel, <br /> feel the speed.</h1>  
                       <p>Mid Parcel is a courier company that helps you to deliver and pick up packages across the country. We offer reliable and affordable services through our multiple dispatch riders.</p>
                       <HeroBtn>
                           <p>Download the app</p>

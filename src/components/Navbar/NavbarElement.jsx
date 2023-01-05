@@ -15,8 +15,17 @@ export const NavContainer = styled.div`
 
 export const NavLogo = styled.div`
  padding-left: 30px;
+ display: flex;
+ align-items: center;
  h1{
     color: var(--text-color);
+    position: relative;
+ }
+ span{
+   position: absolute;
+   left: 10px;
+   top: 10px;
+   mix-blend-mode: screen;
  }
 `;
 export const NavItems = styled.div`

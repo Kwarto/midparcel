@@ -2,6 +2,7 @@ import React from 'react'
 import Detail from '../../components/Detail/Detail'
 import Hero from '../../components/Hero/Hero'
 import History from '../../components/History/History'
+import Know from '../../components/Know/Know'
 import Track from '../../components/Track/Track'
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
           <Detail />
           <Track />
           <History />
+          <Know />
       </>
   )
 }

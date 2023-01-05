@@ -1,12 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { NavContainer, NavLogo, NavItems, NavBtn } from './NavbarElement';
+import logoImg from '../../img/transit.png'
 const Navbar = () => {
   return (
     <>
       <NavContainer>
         <NavLogo>
-          <h1>LOGO</h1>
+          <h1>Mid</h1>
+          <span>
+            <img src={logoImg} alt="logo" />
+          </span>
         </NavLogo>
         <NavItems>
           <Link to={'/'}>
