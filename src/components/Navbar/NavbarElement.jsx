@@ -9,6 +9,7 @@ export const NavContainer = styled.div`
   justify-content: space-between;
   position: fixed;
   left: 0; right: 0;
+  z-index: 100;
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.253);
 `;
 
