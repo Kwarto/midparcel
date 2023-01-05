@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { NavContainer, NavLogo, NavItems, NavBtn } from './NavbarElement';
+import { NavContainer, NavLogo, NavItems, NavBtn, MenuBar, Burger } from './NavbarElement';
 import logoImg from '../../img/transit.png'
 const Navbar = () => {
+  const [isMobile, setIsMobile] = useState(false);
   return (
     <>
-      <NavContainer>
+      <NavContainer className={isMobile? 'res-nav' : 'nav'}>
         <NavLogo>
           <h1>Mid</h1>
           <span>
@@ -31,6 +32,11 @@ const Navbar = () => {
             <p>Download App</p>
           </Link>
         </NavBtn>
+        <MenuBar onClick={() => setIsMobile(true)}>
+          <Burger />
+          <Burger />
+          <Burger />
+        </MenuBar>
       </NavContainer>
     </>
   );

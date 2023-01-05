@@ -12,6 +12,15 @@ export const KnowContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  @media screen and (max-width: 885px){
+    width: var(--container-md);
+  }
+
+  @media screen and (max-width: 430px) {
+   flex-direction: column;
+   width: var(--container-sm);
+ }
 `;
 
 export const LeftKnow = styled.div`
@@ -20,6 +29,15 @@ export const LeftKnow = styled.div`
     width: 100%;
     transform: translateX(3rem);
   }
+  @media screen and (max-width: 885px){
+    width: 45%;
+ }
+  @media screen and (max-width: 430px) {
+   width: 100%;
+    img{
+      transform: translateX(0);
+    }
+ }
 `;
 
 export const RightKnow = styled.div`
@@ -35,4 +53,29 @@ export const RightKnow = styled.div`
     max-width: 600px;
     text-align: justify;
   }
+
+
+  @media screen and (max-width: 885px){
+    width: 55%;
+
+    h1{
+      font-size: 45px;
+      max-width: 600px;
+      color: var(--main-color);
+    }
+
+    p{
+      font-size: 17px;
+    }
+  }
+  @media screen and (max-width: 430px) {
+   width: 100%;
+   h1{
+    font-size: 30px;
+    color: var(--next-color);
+   }
+   p{
+    font-size: 16px;
+   }
+ }
 `;
