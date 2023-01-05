@@ -7,7 +7,7 @@ export const HeroWrapper = styled.section`
 
 export const HeroContainer = styled.div`
  width: var(--container-lg);
- margin: 5% auto;
+ margin: 3% auto;
  display: flex;
  align-items: center;
  justify-content: space-between;
@@ -42,6 +42,13 @@ export const HeroBtn = styled.div`
  &:hover{
     border-radius: 50px;
  }
+`
+
+export const MidIcon = styled.div`
+   display: flex;
+   align-items: center;
+   gap: 5rem;
+   margin-top: 10%;
 `
 
 export const ImgWrapper = styled.div`

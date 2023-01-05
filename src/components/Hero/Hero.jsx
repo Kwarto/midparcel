@@ -1,6 +1,9 @@
 import React from 'react'
-import { HeroWrapper, HeroContainer, TextWrapper, HeroBtn, ImgWrapper } from './HeroElement'
+import { HeroWrapper, HeroContainer, TextWrapper, HeroBtn, MidIcon, ImgWrapper } from './HeroElement'
 import HeroImg from '../../img/hero.png'
+import Icon1 from '../../img/delivered.png'
+import Icon2 from '../../img/contactless.png'
+import Icon3 from '../../img/transit.png'
 const Hero = () => {
   return (
       <>
@@ -14,7 +17,18 @@ const Hero = () => {
                       </HeroBtn>
                   </TextWrapper>
                   <ImgWrapper>
-                     <img src={HeroImg} alt="hero"/>
+                      <img src={HeroImg} alt="hero" />
+                      <MidIcon>
+                          <div>
+                              <img src={Icon3} alt="" />
+                          </div> 
+                          <div>
+                              <img src={Icon2} alt="" />
+                          </div> 
+                          <div>
+                              <img src={Icon1} alt="" />
+                          </div> 
+                      </MidIcon>
                   </ImgWrapper>
             </HeroContainer>
           </HeroWrapper>

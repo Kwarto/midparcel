@@ -29,7 +29,7 @@ export const NavItems = styled.div`
  }
 `;
 export const NavBtn = styled.div`
- padding: 10px 30px;
+ padding: 8px 30px;
  border: 1px solid var(--text-color);
  box-shadow: 0 .5rem 1rem rgba(255, 255, 255, 0.253);
  cursor: pointer;
