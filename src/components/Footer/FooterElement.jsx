@@ -43,7 +43,7 @@ export const FooterItem = styled.div`
   }
 
   p {
-    max-width: 500px;
+    width: max-content;
     font-size: 1rem;
     line-height: 1.6;
     color: var(--footer-txt);
